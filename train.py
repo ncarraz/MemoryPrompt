@@ -176,7 +176,7 @@ def main():
         default=None,
         help="path to a trained memory module",
     )
-    argparser.add_argument("--batch_size", type=int, default=8, help="train bacth size")
+    argparser.add_argument("--batch_size", type=int, default=8, help="train batch size")
     argparser.add_argument(
         "--test_batch_size", type=int, default=4, help="test batch size"
     )
